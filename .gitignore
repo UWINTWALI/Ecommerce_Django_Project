@@ -1,2 +1,21 @@
-virtualenv/ 
-venv/
+# Environment
+.virtualenv/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+.*.swp
+
+# Python
+*.py[cod]
+*__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
